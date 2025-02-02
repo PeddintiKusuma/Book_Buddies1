@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Lato',sans-serif;
+    /* background-image: url(image\signup_background.png); */
+    background-image: url(../image/books_image.avif);
+    background-size: 1530px; 
+}
+.outer-box {
+    width:100vw;
+    height:100vh;
+}
+.inner-box {
+    width:400px;
+    margin:0 auto;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 20px 40px;
+    background-color: #ffffffcc;
+    background: linear-gradient(to top left,#ffffffff,#ffffff33);
+    backdrop-filter: blur(10px);
+    border-radius:8px ;
+    box-shadow: 2px 2px 4px #2773a5;
+    border: 2px solid #ccc;
+    z-index: 2;
+}
+.login-header h1{
+    font-size: 2.5rem;
+    color: #212121;
+}
+ .login-header p{
+    font-size: 0.9rem;
+    color: #555;
+}
+.login-body{
+    margin: 10px 0;
+}
+.login-body p{
+    margin:10px 0;
+}
+.login-body p label{
+    display: block;
+    font-weight:bold ;
+}
+.login-body p input{
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #cccc;
+    border-radius: 4px;
+    font-size: 1rem;
+    margin-top: 4px;
+}
+.login-body p input[type="login"]{
+    background-color: black;
+    border: none;
+    color: white;
+    cursor: pointer;
+    text-align: center;
+}
+    
+.login-body p input[type="login"]:hover {
+    background-color: darkgray;
+    text-align: center;
+}
+.login-footer p{
+    color: #555;
+    text-align: center;
+}
+.login-footer p a{
+    color:#2773a5 ;
+}
+.circle{
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    background: linear-gradient(to top right,#ffffff33, #ffffff);
+    position: absolute;
+}
+.cl{
+    top: 200px;
+    left: 40px;
+}
+.c2{
+    bottom: 100px;
+    right: 40px;
+}
